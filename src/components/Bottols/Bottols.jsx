@@ -13,7 +13,7 @@ const Bottols = () => {
     
     return (
         <div>
-            <h2>bottols here {bottols.length}</h2>
+            <h2>Total {bottols.length}</h2>
          <div className='bottles'>
          {
             bottols.map(bottol => <Bottol 
