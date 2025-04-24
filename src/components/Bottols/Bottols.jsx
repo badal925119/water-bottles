@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Bottol from '../Bottol/Bottol';
+import './Bottols.css'
 
 const Bottols = () => {
     const [bottols, setBottols] = useState([]);
@@ -13,7 +14,7 @@ const Bottols = () => {
     return (
         <div>
             <h2>bottols here {bottols.length}</h2>
-         <div>
+         <div className='bottles'>
          {
             bottols.map(bottol => <Bottol 
                 key={bottol.id}
