@@ -12,4 +12,8 @@ transition-duration: 2s;
 .bottol img {
     width: 200px;
     border-radius: 30px;
+    transition-duration:.5s ;
+}
+.bottol img:hover{
+    width: 210px;
 }
